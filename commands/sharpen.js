@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const request = require("request-promise-native").defaults({ encoding: null });
 const sharp = require("sharp");
 

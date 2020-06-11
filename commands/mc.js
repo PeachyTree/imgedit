@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const request = require("request").defaults({ encoding: null });
 
 exports.run = async (client, message, args) => { // eslint-disable-line no-unused-vars

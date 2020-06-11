@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const { activityMessages } = require('./assets/json/activities');
 
 module.exports = async (client) => {

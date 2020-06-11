@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const request = require("request");
 const tempy = require("tempy");
 const gm = require("@tohru/gm").subClass({
@@ -5,7 +7,6 @@ const gm = require("@tohru/gm").subClass({
 });
 
 exports.run = async (client, message, args) => { // eslint-disable-line no-unused-vars
-  // message.reply("this command is currently disabled due to arising technical issues.");
   const image = await client.getImage(message).catch(error => {
     message.reply("You need to provide an image to add some magik!");
     console.log(error);

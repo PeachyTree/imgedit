@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const tempy = require("tempy");
 const wrap = require("word-wrap");
 const gm = require("@tohru/gm").subClass({

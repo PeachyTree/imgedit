@@ -1,11 +1,14 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const request = require("request");
+const { MASHAPE_KEY } = procee.env;
 
 exports.run = async (client, message, args) => { // eslint-disable-line no-unused-vars
   message.channel.startTyping();
   request({
     url: "https://hargrimm-wikihow-v1.p.mashape.com/images?count=1",
     headers: {
-      "X-Mashape-Key": client.config.mashapeKey,
+      "X-Mashape-Key": MASHAPE_KEY,
       "Accept": "application/json"
     },
     json: true

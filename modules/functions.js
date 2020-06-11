@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const request = require("request").defaults({ encoding: null });
 const imageCheck = require("file-type");
 

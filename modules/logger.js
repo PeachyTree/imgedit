@@ -1,3 +1,7 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
+// Simple Logger module for Error, warnings, debugging and more
+
 const moment = require("moment");
 const winston = require("winston");
 const logger = winston.createLogger({

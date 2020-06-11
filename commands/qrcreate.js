@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const qrcode = require("qrcode");
 const tempy = require("tempy");
 

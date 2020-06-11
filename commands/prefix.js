@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 exports.run = async (client, message, args) => { // eslint-disable-line no-unused-vars
   if (!message.member.permissions.has("ADMINISTRATOR") && message.author.id !== client.config.botOwner) return message.reply("You need to be an Administrator on this server to change the prefix!");
   if (args.length !== 0) {

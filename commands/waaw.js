@@ -1,3 +1,5 @@
+// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+
 const request = require("request");
 const tempy = require("tempy");
 const gm = require("@tohru/gm").subClass({
