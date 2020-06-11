@@ -12,3 +12,6 @@ A Discord Bot with focus on image editing commands, made with Discord.js.
 ### API Keys, Secrets, and more:
 
 * `MASHAPE_KEY=` can be obtained by visiting the [Rapid API](https://rapidapi.com/rokity/api/mashape).
+
+## License
+You can see more information at `LICENSE`.
