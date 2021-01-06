@@ -1,4 +1,4 @@
-// Copyright (©) 2020 Azura Apple. All rights reserved. MIT License.
+// Copyright (©) 2020-2021 Shin#0484. All rights reserved. MIT License.
 
 require('dotenv').config();
 const Discord = require("discord.js");
@@ -10,8 +10,8 @@ const { IMGEDIT_TOKEN, IMGEDIT_PREFIX } = process.env;
 
 // Client Settings
 client.config = require("./config.json");
-client.logger = require("./modules/logger");
-require("./modules/functions.js")(client);
+client.logger = require("./controllers/logger");
+require("./controllers/functions.js")(client);
 client.commands = new Enmap();
 client.aliases = new Enmap();
 client.settings = new Enmap({ name: "settings" });
